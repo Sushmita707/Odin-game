@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#gameDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.gameText {
+    margin: 0;
+    font-size: 2rem;
+}
+
+#resultText {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.choiceBtn {
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.choiceBtn:nth-of-type(1) {
+  background-color: #e74c3c;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.choiceBtn:nth-of-type(2) {
+  background-color: #2ecc71;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.choiceBtn:nth-of-type(3) {
+  background-color: #f1c40f;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.choiceBtn:hover {
+    background-color: #2980b9;
+}
+.player-choice {
+  font-family: 'Arial Black', sans-serif;
+  color: #e74c3c;
+}
+
